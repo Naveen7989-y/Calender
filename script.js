@@ -1,8 +1,6 @@
 /*In creation of the Calender project we firstday ofthe present month,
 last day of the previous month, and we need the last day of this month*/
 //const date = new Date();
-
-
 const date = new Date();
 
 const naveenscalender = () => {
