@@ -1,0 +1,111 @@
+body {
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 10px;
+    padding: 0;
+    background-color: white; 
+}
+h1 {
+    text-align: center;
+    font-size: 24px; 
+    color: #167e56;
+    margin-top: 5px;
+}
+
+#container {
+    display: flex;
+    justify-content: center;
+    gap: 19.8%; 
+    margin-top: 0px;
+}
+
+#container div {
+    font-size: 16px;
+    background-color: #167e56;
+    padding: 6px;
+    color: white;
+}
+
+#minicontainer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 180px; 
+    background-color: #167e56;
+    width: 49%;
+    margin-top: 0px;
+    padding: 5px;
+    height: 100px;
+}
+
+#maincontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#subminis {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+#subminis p{
+    font-style: bold;
+    font-size: largep;
+}
+
+#weekdays {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   margin-top: 2px;
+    width: 49.9%; 
+}
+
+#weekdays div {
+    flex: 1;
+    text-align: center;
+    font-size: 14px; 
+    background-color: black;
+    color: white;
+    padding: 8px; 
+}
+#days {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 50%; 
+    margin-top: 2px;
+   
+}
+
+#days div {
+    width: calc(100% / 7);
+    min-height: 60px; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1rem; 
+    background-color: ;
+    color: black;
+    text-shadow: 0 0.2rem 0.3rem rgba(0, 0, 0, 0.5); 
+    transition: background-color 0.2s;
+}
+
+#todaydate222{
+    text-decoration: none;
+    background-color:#167e56;
+    color: white;
+    border-radius: 10px;
+    
+   
+}
+
+#prev,#next{
+    background-color: black;
+    color: white;
+    font-size: 100%;
+    border-radius: 10px;
+}
